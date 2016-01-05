@@ -1,0 +1,25 @@
+{
+  "name": "energenie",
+  "version": "0.1.0",
+  "description": "Remotely control power sockets from the Raspberry Pi (wrapper around energenie python package)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "energenie",
+    "remote",
+    "control",
+    "power",
+    "socket",
+    "raspberry",
+    "pi",
+    "rpi"
+  ],
+  "author": "Jeremy Faivre <contact@jeremyfa.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeremyfa/energenie.git"
+  }
+}
