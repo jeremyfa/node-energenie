@@ -1,6 +1,6 @@
 {
   "name": "energenie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remotely control power sockets from the Raspberry Pi (wrapper around energenie python package)",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jeremyfa/energenie.git"
+    "url": "git://github.com/jeremyfa/node-energenie.git"
   }
 }
