@@ -46,7 +46,7 @@ module.exports = {
     switchOffSync: function(socket) {
         if (socket == null) socket = 0;
         else socket = parseInt(socket, 10);
-        var result = spawn('python', [__dirname+'/switch.py', 'off', socket]);
+        var result = spawnSync('python', [__dirname+'/switch.py', 'off', socket]);
         if (result.stderr.length > 0) throw new Error(result.stderr);
     }
 }
